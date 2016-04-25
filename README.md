@@ -1,5 +1,5 @@
 # wundergroundBlynk
-This is a relatively simple method to get weather data (simply the current temperature in fahrenheit, in this case) and plug it into a variable in my Arduino sketch.
+This is a relatively simple method to get weather data (simply the current temperature in fahrenheit, in this case) and plug it into a variable in my Arduino sketch. This sketch lives on an ESP-8266 (ESP-01), but I did my initial testing on an Arduino Uno R3.
 
 ## Libraries and Resources
 
