@@ -1,5 +1,5 @@
 # wundergroundBlynk
-A simple way of getting a Weather Underground API temperature into Blynk (or any other variable in your Arduino sketch).
+This is a relatively simple method to get weather data (simply the current temperature in fahrenheit, in this case) and plug it into a variable in my Arduino sketch.
 
 ## Libraries and Resources
 
