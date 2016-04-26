@@ -40,8 +40,6 @@ void setup()
   }
   timer.setInterval(300000L, sendWU); // 5 minutes between Wunderground API calls.
   timer.setInterval(90000L, sendWUtoBlynk); // 1.5 minutes between API data updates to Blynk. 
-
-  static char respBuf[4096];
 }
 
 static char respBuf[4096];
