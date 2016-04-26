@@ -12,6 +12,6 @@ blynk-library | BlynkSimpleEsp8266.h, WidgetRTC.h | https://github.com/blynkkk/b
 ArduinoJson | ArduinoJson.h | https://github.com/bblanchon/ArduinoJson
 ESP8266 board mgr | N/A | [json](http://arduino.esp8266.com/stable/package_esp8266com_index.json) & [instructions](https://github.com/esp8266/Arduino#installing-with-boards-manager)
 
-All the credit and the biggest thanks to bbx10node@gmail.com (https://github.com/bbx10/esp-pcd-weather.git) for the horsepower to make this work. [How to edit this.](https://guides.github.com/features/mastering-markdown/)
+All the credit and the biggest thanks to bbx10node@gmail.com (https://github.com/bbx10/esp-pcd-weather.git) for the horsepower to make this work. I just tweaked his hard work to work for me. [How to edit this.](https://guides.github.com/features/mastering-markdown/)
 
 Wunderground, Weather Underground, and all the respective logos, etc., are © Copyright The Weather Company, LLC
