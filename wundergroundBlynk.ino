@@ -13,9 +13,9 @@ char auth[] = "fromBlynkApp *04";
 
 SimpleTimer timer;
 
-// The original time entries that didn't like being removed.
+// Time entries that didn't like being removed.
 #define DELAY_NORMAL    (10) 
-#define DELAY_ERROR     (00)
+#define DELAY_ERROR     (10)
 
 #define WUNDERGROUND "api.wunderground.com"
 
