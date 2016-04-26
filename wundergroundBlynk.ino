@@ -1,9 +1,4 @@
-// v4: Working with Blynk connection.
-// v5: Send to app vpin
-// v6: Send the real WU to Blynk
-// v7: Cut it down!
-
-#define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
+//#define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <SimpleTimer.h>
