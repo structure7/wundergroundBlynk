@@ -4,7 +4,7 @@
 #include <SimpleTimer.h>
 #include <ArduinoJson.h>
 
-char auth[] = "fromBlynkApp *04";
+char auth[] = "fromBlynkApp";
 
 SimpleTimer timer;
 
@@ -58,7 +58,7 @@ void sendWU()
   Serial.print(F("Connecting to "));
   Serial.println(WUNDERGROUND);
 
-  // Use WiFiClient class to create TCP connections (A LITTLE WORRIED HOW THIS WILL WORK WITH BLYNK)
+  // Use WiFiClient class to create TCP connections
   WiFiClient httpclient;
   const int httpPort = 80;
   if (!httpclient.connect(WUNDERGROUND, httpPort)) {
@@ -115,15 +115,12 @@ void sendWU()
   Serial.println(respLen);
   //Serial.println(respBuf);
 
-
-// This part will be removed in favor of the timer feature. Probably remove delay_error and just report ERR.
   if (showWeather(respBuf)) {
     delay(DELAY_NORMAL);
   }
   else {
     delay(DELAY_ERROR);
   }
-
 }
 
 bool showWeather(char *json)
